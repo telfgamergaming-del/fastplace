@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fastplace",
+  "version": "${version}",
+  "name": "Fast Place",
+  "description": "Hold right click to place blocks at drag-click speed.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.fastplace.FastPlaceClient"] },
+  "mixins": ["fastplace.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
